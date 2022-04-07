@@ -79,12 +79,12 @@ export class AppModule {}
 ```
 
 ```ts
-import { CloudFileStorage, InjectFileService } from "nest-file-manager";
+import { FileService, InjectFileService } from "nest-file-manager";
 
 export class MyService {
   constructor(
     @InjectFileService("AWS") // or "Azure" or "Disk"
-    readonly fileService: CloudFileStorage
+    readonly fileService: FileService
   ) {}
 
   async handleFileUpload() {

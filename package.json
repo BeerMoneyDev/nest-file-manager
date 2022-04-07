@@ -1,6 +1,6 @@
 {
   "name": "nest-file-manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An abstraction layer to simplify cloud file management in NestJS.",
   "author": "Kerry Ritter <ritter@kerryritter.com>",
   "contributors": [

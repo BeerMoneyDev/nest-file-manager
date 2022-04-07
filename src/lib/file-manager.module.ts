@@ -10,6 +10,7 @@ import { AwsConfig } from './aws/aws-config.interface';
 import { AzureConfig } from './azure/azure-config.interface';
 import { DiskConfig } from './disk/disk-config.interface';
 import { DiskFileService } from './disk/disk.service';
+import { FileService, InjectFileService } from "../index";
 
 function getImports(provider: AsyncModuleProvider<any>) {
   return (provider as AsyncModuleFactoryProvider<any>)?.imports || [];
